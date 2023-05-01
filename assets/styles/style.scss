@@ -315,6 +315,16 @@ main {
       }
     }
   }
+
+  .chart {
+    min-height: 100vh;
+    widows: 100%;
+    padding-block: 50px;
+
+    iframe {
+      min-height: 500px;
+    }
+  }
 }
 
 footer {
